@@ -1,0 +1,224 @@
+Written on Thu Oct 22 20:05:33 WIB 2020
+=========================================================
+              SELAMAT DATANG DI MASTERMIND
+=========================================================
+Sebelum memulai permainan, pilih tingkat kesulitan: 
+1.Sangat Mudah (01 Digit dan 03 Tebakan)
+2.Mudah        (02 Digit dan 05 Tebakan)
+3.Sedang       (04 Digit dan 10 Tebakan)
+4.Sulit        (08 Digit dan 20 Tebakan)
+5.Sangat Sulit (16 Digit dan 40 Tebakan)
+Pilih nomor: 3
+
+Permainan dimulai dengan tingkat kesulitan: Sedang
+
+=========================================================
+                       TEBAKAN 01
+=========================================================
+Masukkan nomor tebakan (04 digit): 
+Digit 1: 1
+Digit 2: 2
+Digit 3: 3
+Digit 4: 4
+
+Panduan bantuan: 
+Hijau : 0
+Kuning: 1
+Merah : 3
+
+=========================================================
+                       TEBAKAN 02
+=========================================================
+Masukkan nomor tebakan (04 digit): 
+Digit 1: 4
+Digit 2: 1
+Digit 3: 2
+Digit 4: 3
+
+Panduan bantuan: 
+Hijau : 1
+Kuning: 0
+Merah : 3
+
+=========================================================
+                       TEBAKAN 03
+=========================================================
+Masukkan nomor tebakan (04 digit): 
+Digit 1: 4
+Digit 2: 3
+Digit 3: 1
+Digit 4: 2
+
+Panduan bantuan: 
+Hijau : 1
+Kuning: 0
+Merah : 3
+
+=========================================================
+                       TEBAKAN 04
+=========================================================
+Masukkan nomor tebakan (04 digit): 
+Digit 1: 4
+Digit 2: 5
+Digit 3: 6
+Digit 4: 7
+
+Panduan bantuan: 
+Hijau : 2
+Kuning: 1
+Merah : 1
+
+=========================================================
+                       TEBAKAN 05
+=========================================================
+Masukkan nomor tebakan (04 digit): 
+Digit 1: 4
+Digit 2: 6
+Digit 3: 5
+Digit 4: 7
+
+Panduan bantuan: 
+Hijau : 1
+Kuning: 2
+Merah : 1
+
+=========================================================
+                       TEBAKAN 06
+=========================================================
+Masukkan nomor tebakan (04 digit): 
+Digit 1: 4
+Digit 2: 5
+Digit 3: 7
+Digit 4: 6
+
+Panduan bantuan: 
+Hijau : 1
+Kuning: 2
+Merah : 1
+
+=========================================================
+                       TEBAKAN 07
+=========================================================
+Masukkan nomor tebakan (04 digit): 
+Digit 1: 4
+Digit 2: 7
+Digit 3: 6
+Digit 4: 5
+
+Panduan bantuan: 
+Hijau : 3
+Kuning: 0
+Merah : 1
+
+=========================================================
+                       TEBAKAN 08
+=========================================================
+Masukkan nomor tebakan (04 digit): 
+Digit 1: 4
+Digit 2: 7
+Digit 3: 6
+Digit 4: 8
+
+Panduan bantuan: 
+Hijau : 3
+Kuning: 0
+Merah : 1
+
+=========================================================
+                       TEBAKAN 09
+=========================================================
+Masukkan nomor tebakan (04 digit): 
+Digit 1: 4
+Digit 2: 7
+Digit 3: 6
+Digit 4: 0
+
+=========================================================
+                        BERHASIL
+=========================================================
+Selamat, anda berhasil menebak nomor rahasia
+Nomor rahasia: 4760
+
+Written on Thu Oct 22 20:15:21 WIB 2020
+=========================================================
+              SELAMAT DATANG DI MASTERMIND
+=========================================================
+Sebelum memulai permainan, pilih tingkat kesulitan: 
+1.Sangat Mudah (01 Digit dan 03 Tebakan)
+2.Mudah        (02 Digit dan 05 Tebakan)
+3.Sedang       (04 Digit dan 10 Tebakan)
+4.Sulit        (08 Digit dan 20 Tebakan)
+Pilih nomor: 2
+
+Permainan dimulai dengan tingkat kesulitan: Mudah
+
+=========================================================
+                       TEBAKAN 01
+=========================================================
+Masukkan nomor tebakan (02 digit): 
+Digit 1: 3
+Digit 2: 4
+
+Panduan bantuan: 
+Hijau : 0
+Kuning: 1
+Merah : 1
+
+=========================================================
+                       TEBAKAN 02
+=========================================================
+Masukkan nomor tebakan (02 digit): 
+Digit 1: 1
+Digit 2: 2
+
+Panduan bantuan: 
+Hijau : 0
+Kuning: 0
+Merah : 2
+
+=========================================================
+                       TEBAKAN 03
+=========================================================
+Masukkan nomor tebakan (02 digit): 
+Digit 1: 4
+Digit 2: 3
+
+Panduan bantuan: 
+Hijau : 1
+Kuning: 0
+Merah : 1
+
+=========================================================
+                       TEBAKAN 04
+=========================================================
+Masukkan nomor tebakan (02 digit): 
+Digit 1: 41
+
+Masukkan salah, mohon coba lagi
+
+Digit 1: 4
+Digit 2: 1
+
+Panduan bantuan: 
+Hijau : 1
+Kuning: 0
+Merah : 1
+
+=========================================================
+                       TEBAKAN 05
+=========================================================
+Masukkan nomor tebakan (02 digit): 
+Digit 1: 4
+Digit 2: 2
+
+Panduan bantuan: 
+Hijau : 1
+Kuning: 0
+Merah : 1
+
+=========================================================
+                          GAGAL
+=========================================================
+Maaf, anda gagal menebak nomor rahasia
+Nomor rahasia: 40
+
