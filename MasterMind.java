@@ -173,7 +173,7 @@ public class MasterMind {
 
             outFile = new PrintWriter(fileStream);
          } else {
-            // Create file jika file sudah ada
+            // Create file jika file tidak ada
             outFile = new PrintWriter(namaFile);
          }
 
