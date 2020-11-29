@@ -15,8 +15,8 @@ public class ProcessName {
     public static String processName(String name) {
         int iSpace = name.indexOf(" "); // Mengambil posisi indeks dari spasi
         
-        String firstName = name.substring(0, iSpace),               // Mengambil nama depan dengan indeks spasi sebagai pembatasnya 
-               lastName = name.substring(iSpace, name.length());    // Mengambil nama belakang dengan indeks spasi sebagai pembatasnya 
+        String firstName = name.substring(0, iSpace),               // Mengambil nama depan (karakter dari index awal (0) sampai indeks spasi)
+               lastName = name.substring(iSpace, name.length());    // Mengambil nama belakang ( karakter dari index spasi sampai index terakhir (yg didapat dari name.length())
         name = 
             lastName +              // Nama belakang
             ", " + 
