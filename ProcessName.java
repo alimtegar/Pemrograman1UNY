@@ -13,10 +13,15 @@ public class ProcessName {
     }
     
     public static String processName(String name) {
-        int iSpace = name.indexOf(" ");
-        String firstName = name.substring(0, iSpace),
-               lastName = name.substring(iSpace, name.length());
-        name = lastName + ", " + firstName.charAt(0) + ".";
+        int iSpace = name.indexOf(" "); // Mengambil posisi indeks dari spasi
+        
+        String firstName = name.substring(0, iSpace),               // Mengambil nama depan dengan indeks spasi sebagai pembatasnya 
+               lastName = name.substring(iSpace, name.length());    // Mengambil nama belakang dengan indeks spasi sebagai pembatasnya 
+        name = 
+            lastName +              // Nama belakang
+            ", " + 
+            firstName.charAt(0) +   // Mengambil karakter pertama (karakter dengan indeks 0) dari nama depan
+            ".";
         
         return name;
     }
