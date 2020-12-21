@@ -33,4 +33,12 @@ public class Point {
        
        return quadrant;
    }
+   
+   public void flip() {
+       int initX = x,
+           initY = y;
+       
+       y = -initX;
+       x = -initY;
+   }
 }
