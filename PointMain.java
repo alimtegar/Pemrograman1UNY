@@ -44,7 +44,6 @@ public class PointMain {
 		System.out.println();
 		
 		// this code tests the flip method (un-comment it to enable the code)
-		/*
 		p1.flip();
 		System.out.println("p1 after flip = " + p1);
 		p2.flip();
@@ -55,6 +54,13 @@ public class PointMain {
 		System.out.println("p4 after flip = " + p4);
 		p0.flip();
 		System.out.println("p0 after flip = " + p0);
-		*/
+      
+      // this code tests the modified toString method
+      Point pt = new Point();
+      
+      pt.x = 5;
+      pt.y = -17;
+      
+      System.out.println(pt);
 	}
 }

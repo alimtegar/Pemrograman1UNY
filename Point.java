@@ -20,18 +20,18 @@ public class Point {
 	}
 	
 	public String toString() {
-		return "(" + x + ", " + y + ")";
+		return "java.awt.Point[x=" + x + ",y=" + y + "]";
 	}
    
-   public int quadrant() {
-       int quadrant = 0;
+   public int quadrant() {
+      int quadrant = 0;
            
-       if (x > 0 && y > 0) { quadrant = 1; }
-       else if (x < 0 && y > 0) { quadrant = 2; }
-       else if (x < 0 && y < 0) { quadrant = 3; }
-       else if (x > 0 && y < 0) { quadrant = 4; }
+      if (x > 0 && y > 0) { quadrant = 1; }
+      else if (x < 0 && y > 0) { quadrant = 2; }
+      else if (x < 0 && y < 0) { quadrant = 3; }
+      else if (x > 0 && y < 0) { quadrant = 4; }
        
-       return quadrant;
+      return quadrant;
    }
    
    public void flip() {
