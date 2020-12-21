@@ -1,3 +1,5 @@
+import java.lang.Math;
+
 public class Point {
 	int x;
 	int y;
@@ -40,5 +42,12 @@ public class Point {
        
        y = -initX;
        x = -initY;
+   }
+   
+   public int manhattanDistance(Point other) {
+      int dx = Math.abs(other.x - x);
+		int dy = Math.abs(other.y - y);
+      int dist = dx + dy;
+      return dist;
    }
 }

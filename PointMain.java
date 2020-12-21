@@ -62,5 +62,8 @@ public class PointMain {
       pt.y = -17;
       
       System.out.println(pt);
+      
+      // this code tests the manhattanDistance method
+      System.out.println("p0 " + p0 + " manhattan distance from p1 " + p1 + " = " + p0.manhattanDistance(p1)); 
 	}
 }
