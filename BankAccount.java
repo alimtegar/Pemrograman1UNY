@@ -1,21 +1,21 @@
 // Each BankAccount object represents one user's account
 // information including name and balance of money.
 
-public class BankAccount {
-   String name;
-   double balance;
+public class BankAccount {
+   String name;
+   double balance;
    double transactionFee = 0.0;
 
-   public void deposit(double amount) {
-      balance = balance + amount;
+   public void deposit(double amount) {
+      balance = balance + amount;
    }
 
-   public void withdraw(double amount) {
-      balance -= (balance >= (amount + transactionFee)) ? (amount + transactionFee) : 0;
+   public void withdraw(double amount) {
+      balance -= (balance >= (amount + transactionFee)) ? (amount + transactionFee) : 0;
    }
 
-   public String toString() {
-      return (balance < 0) 
+   public String toString() {
+      return (balance < 0) 
          ? String.format("%s, -$%.2f", name, -balance) 
          : String.format("%s, $%.2f", name, balance);
    }
