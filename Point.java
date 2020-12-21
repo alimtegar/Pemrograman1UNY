@@ -37,11 +37,10 @@ public class Point {
    }
    
    public void flip() {
-       int initX = x,
-           initY = y;
+       int initX = x;
        
+       x = -y;
        y = -initX;
-       x = -initY;
    }
    
    public int manhattanDistance(Point other) {
