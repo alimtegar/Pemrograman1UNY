@@ -22,4 +22,15 @@ public class Point {
 	public String toString() {
 		return "(" + x + ", " + y + ")";
 	}
+   
+   public int quadrant() {
+       int quadrant = 0;
+           
+       if (x > 0 && y > 0) { quadrant = 1; }
+       else if (x < 0 && y > 0) { quadrant = 2; }
+       else if (x < 0 && y < 0) { quadrant = 3; }
+       else if (x > 0 && y < 0) { quadrant = 4; }
+       
+       return quadrant;
+   }
 }
