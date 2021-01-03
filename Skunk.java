@@ -8,22 +8,23 @@ public class Skunk extends Critter {
     
    public boolean eat() {
       hungry = true;
+      
       return true;
    }
     
    public Direction getmoves() {
       moves++;
-      if (moves >= 3) {
-         moves = 0;
-      }
+      
+      moves = moves >= 3 ? 0 : moves;
+      
       if (moves == 1 || moves == 2) {
          return Direction.WEST;
       } else if (hungry) {
          return Direction.NORTH;
       } else if (!hungry) {
          return Direction.SOUTH;
-      } else {
-         return Direction.EAST;
       }
+      
+      return null;
    }
 }
