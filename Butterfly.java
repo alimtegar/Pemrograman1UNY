@@ -13,10 +13,9 @@ public class Butterfly extends Critter {
       moves++;
       
       string = string == "x" ? "-" : "x";  // Alternate string for each move
-      moves = moves >= 3 ? 0 : moves;
       
       if (moves == 2) { return Direction.WEST; } 
-      else if (moves == 4) { return Direction.EAST; }
+      else if (moves == 4) { moves = 0; return Direction.EAST; }
       
       return Direction.NORTH;
    }
