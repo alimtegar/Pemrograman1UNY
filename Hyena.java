@@ -37,4 +37,4 @@ public class Hyena extends Critter {
    public String toString() {
       return "h";
    }
-} 
+}

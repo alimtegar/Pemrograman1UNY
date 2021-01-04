@@ -19,12 +19,11 @@ public class Skunk extends Critter {
       
       if (moves == 1 || moves == 2) {
          return Direction.WEST;
-      } else if (hungry) {
-         return Direction.NORTH;
-      } else if (!hungry) {
-         return Direction.SOUTH;
+      } else {
+         if (hungry) {
+            return Direction.NORTH;
+         } else {
+            return Direction.SOUTH;
+         }
       }
-      
-      return null;
-   }
 }

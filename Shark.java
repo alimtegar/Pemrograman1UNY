@@ -24,4 +24,4 @@ public class Shark extends Critter {
    public String toString() {
       return "a";
    }
-} 
+}

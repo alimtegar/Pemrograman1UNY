@@ -23,4 +23,4 @@ public class Butterfly extends Critter {
    public String toString() {
       return string;
    }
-} 
+}
