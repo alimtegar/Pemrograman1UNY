@@ -15,7 +15,7 @@ public class Banish {
                 // System.out.print("" + i + ":" + "" + a1[i]);
                 // System.out.print("\t\t== " + j + ":" + a2[j]+"\t");
 
-                // Untuk cek satu-satu nilai a1 apakah ada yang sama dengan nilai-nilai di a2
+                // Untuk cek setiap nilai a1 apakah ada yang sama dengan nilai-nilai di a2
                 if (a1[i] == a2[j]) {
                     // Geser mundur 1 langkah dengan mengganti nilai dengan nilai di depannya
                     for (int k = i; k < a1.length - 1; k++) {
@@ -24,8 +24,8 @@ public class Banish {
 
                     a1[a1.length - 1] = 0; // Isi angka 0 pada indeks terakhir
                     if (i > 0) {
-                        i--;
-                    } // Untuk cek mundur karena a1 tergeser mundur 1 langkah
+                        i--; // Untuk cek mundur karena a1 tergeser mundur 1 langkah
+                    } 
                     j = -1; // Untuk cek dengan a2 dari awal
                 }
                 ;

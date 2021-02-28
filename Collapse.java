@@ -2,20 +2,22 @@ import java.util.Arrays;
 
 public class Collapse {
     public static void main(String args[]) {
-        int[] nums = {7, 2, 8, 9, 4, 13, 7, 1, 9, 10};
+        int[] nums = { 7, 2, 8, 9, 4, 13, 7, 1, 9, 10 };
+
         System.out.print(Arrays.toString(collapse(nums)));
     }
 
     public static int[] collapse(int[] nums) {
-        int x = nums.length / 2, y = nums.length % 2;
+        int x = nums.length / 2, // Jumlah bagi 2
+            y = nums.length % 2; // Sisa bagi 2
         int[] newNums = new int[x + y];
 
         for (int i = 0; i < x; i++) {
-            newNums[i] = nums[2 * i] + nums[2 * i + 1];
+            newNums[i] = nums[2 * i] + nums[2 * i + 1]; // Setiap 2 nilai, menambahkan nilai dengan nilai di depannya
         }
 
         if (y != 0) {
-            newNums[newNums.length - 1] = nums[nums.length - 1];
+            newNums[newNums.length - 1] = nums[nums.length - 1]; // Menambahkan nilai terkahir
         }
 
         return newNums;
