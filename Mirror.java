@@ -14,7 +14,6 @@ public class Mirror {
     }
 
     public static ArrayList<String> mirror(ArrayList<String> list) {
-        // int initSize = list.size()
         int iCount = list.size();
 
         for (int i = 0; i < iCount; i++) {
